@@ -1,0 +1,174 @@
+.card {
+    margin: 0 auto;
+    width: 80%;
+    /*height: 800px;*/
+    /*background: grey;*/
+    /*border: 2px solid red;*/
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.top {
+    /*width: 100%;*/
+    /*height: 150px;*/
+    /*border: 2px solid green;*/
+
+    display: flex;
+    gap: 10px;
+}
+
+.logo {
+    width: 30%;
+    height: 200px;
+    background: grey;
+
+}
+
+.header {
+    width: 70%;
+    height: 200px;
+    background: grey;
+}
+
+.main {
+    /*width: 100%;*/
+    display: flex;
+    gap: 10px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 30%;
+    /*height: 600px;*/
+}
+
+.nav {
+    height: 300px;
+    background: grey;
+}
+
+.store {
+    height: 145px;
+    background: grey;
+}
+
+.tools {
+    height: 145px;
+    background: grey;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 70%;
+}
+
+.center {
+    display: flex;
+    /*width: 70%;*/
+    /*height: 400px;*/
+    gap: 10px;
+}
+
+.section {
+    width: 80%;
+    height: 200px;
+    background: grey;
+
+}
+
+.ad {
+    width: 20%;
+    height: 200px;
+    background: grey;
+}
+
+.center_down {
+    display: flex;
+    gap: 10px;
+}
+
+.type {
+    width: 80%;
+    height: 400px;
+    background: grey;
+
+}
+
+.products {
+    width: 20%;
+    height: 400px;
+    background: grey;
+
+}
+
+.footer {
+    width: 100%;
+    height: 200px;
+    background: grey;
+}
+
+.nav_block {
+    display: none;
+}
+
+.box {
+    display: none;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    /*border-right: 20px;*/
+}
+
+@media screen and (max-width: 1000px) {
+    body {
+        background: pink;
+    }
+    .left {
+        display: none;
+    }
+    .content {
+        width: 100%;
+    }
+    .center_down {
+        flex-direction: column;
+    }
+    .type {
+        width: 100%;
+    }
+    .products {
+        width: 100%;
+        height: 200px;
+    }
+    .main {
+        flex-direction: column;
+    }
+    .nav_block {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 30px;
+        font-weight: bold;
+        background: grey;
+        height: 150px;
+    }
+    .box {
+        display: flex;
+        gap: 10px;
+    }
+    .store, .tools {
+        width: 50%;
+    }
+
+}

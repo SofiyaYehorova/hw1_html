@@ -1,0 +1,48 @@
+.xxx {
+    display: flex;
+}
+.card {
+    width: 250px;
+    height: 400px;
+    background: silver;
+
+    box-sizing: border-box;
+    padding: 30px;
+}
+
+.fa-star-sharp {
+    font-size: 100px;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: coral;
+
+}
+
+.description > h3 {
+    text-align: center;
+}
+
+.description > p {
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: justify;
+}
+
+.button-box {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-box > button {
+    width: 150px;
+    height: 50px;
+    background: yellow;
+
+
+}
