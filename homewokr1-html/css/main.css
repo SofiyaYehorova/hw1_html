@@ -1,20 +1,30 @@
 h1 {
     background: salmon;
     color: antiquewhite;
+    text-align: center;
 }
 
 h2 {
     background: darkgoldenrod;
     color: beige;
+    text-align: center;
+    font-size: 22px;
+
 }
 
 p {
     background: bisque;
     color: #0e4646;
+    font-size: 20px;
+
 }
 
 li {
     background: blueviolet;
-    color: yellowgreen;
+    color: white;
+}
+
+img{
+    width: 200px;
 }
 
